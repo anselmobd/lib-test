@@ -1,7 +1,7 @@
 # my_cli_project/cli.py
 import click
-from commands.greetings import ola
-from commands.command2 import command2
+from .commands.greetings import ola
+from .commands.command2 import command2
 
 @click.group()
 def cli():
