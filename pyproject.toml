@@ -19,4 +19,4 @@ dev = [
 ]
 
 [project.scripts]
-libtest = "libtest.cli:cli"
+libtest = "libtest.cli:main"
