@@ -1,15 +1,18 @@
 # my_cli_project/cli.py
 import click
-from libtest.commands.command1 import command1
-from libtest.commands.command2 import command2
+from .commands.greetings import ola
+from .commands.command2 import command2
 
 @click.group()
 def cli():
     """Comando principal da CLI."""
     pass
 
-cli.add_command(command1)
+cli.add_command(ola)
 cli.add_command(command2)
 
-if __name__ == '__main__':
+def main():
     cli()
+
+if __name__ == "__main__":
+    main()
