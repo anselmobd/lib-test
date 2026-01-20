@@ -10,12 +10,12 @@ readme = "README.md"
 requires-python = ">=3.11"
 
 dependencies = [
-    "click",
+    "click~=8.3",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest",
+    "pytest~=9.0",
 ]
 
 [project.scripts]
