@@ -11,5 +11,8 @@ def cli():
 cli.add_command(ola)
 cli.add_command(command2)
 
-if __name__ == '__main__':
+def main():
     cli()
+
+if __name__ == "__main__":
+    main()
