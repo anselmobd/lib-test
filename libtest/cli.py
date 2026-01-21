@@ -1,7 +1,7 @@
 # my_cli_project/cli.py
 import click
 from .commands.greetings import ola
-from .commands.command2 import command2
+from .commands.strings import timeid
 
 @click.group()
 def cli():
@@ -9,7 +9,7 @@ def cli():
     pass
 
 cli.add_command(ola)
-cli.add_command(command2)
+cli.add_command(timeid)
 
 def main():
     cli()
