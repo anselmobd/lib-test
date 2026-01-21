@@ -3,7 +3,7 @@
 Este projeto segue Semantic Versioning e utiliza versões
 pré-lançamento conforme a PEP 440.
 
-## [0.1.0a3](./doc/versions/0.1.0a2.md) - 2026-01-19
+## [0.1.0a3](./doc/versions/0.1.0a3.md) - 2026-01-19
 
 ### Alter
 - `command2.py` vira `strings.py` com comando `timeid`
