@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "libtest"
-version = "0.1.0a2"
+version = "0.1.0a3"
 description = "CLI para teste de libs"
 readme = "README.md"
 requires-python = ">=3.11"
